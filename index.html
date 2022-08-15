@@ -11,6 +11,9 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500&display=swap');
   </style>
+
+  <!-- aos js style------------------ -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>SP personal portfolio</title>
 </head>
 
@@ -36,7 +39,7 @@
         <a class="navbar-brand" href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/">
           <!-- <img src="imges/home/sau.pn" class="img-fluid bg-primary" width="50" height="30" alt=""> -->
           <span class="text-dark bg-light rounded-circle p-3  shadow logo"><b>SP</b></span><span
-            class="text-light">Portfolio</span>
+            class="text-light"  data-aos="ease-in">Portfolio</span>
         </a>
         <button class=" navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="fa fa-align-justify"></span>
@@ -68,7 +71,7 @@
           <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/"><i class="fa fa-linkedin rounded-circle p-1 bg-dark"> </i>www.linkedin.com/in/saurabh-palkar</a>
         </div> -->
         <div class="header-email">
-          <a href=""><i class="fa fa-envelope text-info "></i> palkarsaurabh00@gmail.com</a>
+          <a href=""><i class="fa fa-envelope text-dark "></i> palkarsaurabh00@gmail.com</a>
         </div>
       </div>
     </nav>
@@ -93,14 +96,16 @@
         font-size: .7rem;
       }
     }
+
+
   </style>
   <!-- ------------hero---------- -->
   <section id="hero ">
-    <div class=" bg-light col-12 pt-5 mt-5">
+    <div class=" bg-light col-12 pt-5 mt-5" >
       <div class="container d-flex justify-content-between flex-wrap">
-        <div class="container m-auto col-sm-12 col-md-6 col-lg-6 col-xl-7 col-xxl-7 mb-5 ">
+        <div class="container m-auto col-sm-12 col-md-6 col-lg-6 col-xl-7 col-xxl-7 mb-5 "  data-aos="fade-right" >
           <h6>This is ME</h6>
-          <h1 class="font">SAURABH PALKAR</h1>
+          <h1 class="font" data-aos="ease">SAURABH PALKAR</h1>
           <h1>I'm PHP Developer &<br> Web Designer</h1>
           <p>
             Working on web applications development. <br>
@@ -108,45 +113,21 @@
           </p>
           <a href="#about" class="btn btn-primary text-uppercase ">discover now</a>
         </div>
-        <div class="container-fluid col-sm-12 col-md-6 col-lg-6 col-xl-5 col-xxl-5 hero-img ">
+        <div class="container-fluid col-sm-12 col-md-6 col-lg-6 col-xl-5 col-xxl-5 hero-img " data-aos="fade-left">
           <img class="img-fluid " src="imges/hom1.png" alt="saurbh">
         </div>
       </div>
     </div>
   </section>
-  <style>
-    #hero .hero-img {
-      -webkit-filter: grayscale(100%);
-      /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
-      display: none;
-    }
-  </style>
-  <!-- <section id="about" >
-        <div class="container pt-0 mt-0 bg-dark border-danger">
-          <div class="d-flex ">
-            <div class="container-fluid border">
-              <img class="img-fluid"  src="imges/hom1.png" alt="saurbh">
-            </div>
-            <div class="container-fluid border">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores voluptatem quaerat debitis, a molestias quibusdam, maxime repellat, sit ad nihil? Voluptate, officiis?
-            </div>
-          </div>
-        </div>
-    </section> -->
-  <style>
-
-
-  </style>
 
   <section class="" id="about">
     <div class="container-fluid mt-5 pt-5 ">
       <div class=" row col-12 d-flex justify-content-center ">
         <div class="container-fluid d-flex flex-column-reverse flex-wrap  ">
-          <div class="container-fluid col-sm-12 col-lg-6 ">
+          <div class="container-fluid col-sm-12 col-lg-6 " data-aos="fade-up">
             <img class="img-fluid " src="imges/about/about.png" alt="">
           </div>
-          <div class="container-fluid m-auto col-lg-6 ">
+          <div class="container-fluid m-auto col-lg-6 " data-aos="fade-down">
             <h6>About Me</h6>
             <h1 class="pb-3">PERSONAL DETAILS</h1>
             <P>
@@ -157,39 +138,10 @@
             <a class="bg-primary text-white p-2" href="about.html">VEIW FULL DETAILS</a>
           </div>
         </div>
-        <!-- <div class="row ">
-        <div class="col-md-4">
-          <img src="imges/hom1.png" class="img-fluid float-end" alt="...">
-        </div>
-        <div class="col-md-8 mt-5  ">
-          <div class="card-body col-sm-12 justify-content-end  ">
-            <div class="bg-primary text-white p-2">
-              <h5 class="card-title ">About Me</h5>
-
-            </div>
-            <h1>PERSONAL PORTFOLIO</h1>
-            <hr>
-
-            <p class="card-text"> I'm Saurabh Palkar, Web Developer
-              An enthusiastic highly motivated and diploma holder looking for an entry level position in
-              HR
-              and
-              Admin field as a fresher.I have interest in web development and have knowledge about
-              computer
-              languages likes HTML, CSS, JAVASCRIPT and PHP.
-              Also I have worked as computer technician in Xigox computer My career objective is to work
-              for
-              organization which provides me with opportunity to improve my skills and knowledge to grow
-              along
-              with company goals. When I am not working I usually my time listening songs or playing
-              cricket.</p>
-            <a href="#" class="btn btn-primary text-uppercase">View Full Details</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="container d-flex flex-wrap mt-5 p-5 justify-content-center col-12">
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5 ">
+      </section>
+    
+    <div class="container  d-flex flex-wrap mt-5 p-5 justify-content-center col-12" >
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5 " data-aos="fade-right">
           <h1 class="text-center">My Skills</h1>
           <p class="text-center">Computer launguge skill</p>
           <div class="d-flex  justify-content-between">
@@ -232,15 +184,10 @@
             <div class="progress-bar bg-danger progress-bar-striped" style="width: 50%"></div>
           </div>
         </div>
-        <div class="  col-sm-12 col-md-12  col-lg-6 col-xl-6 ">
+        <div class="  col-sm-12 col-md-12  col-lg-6 col-xl-6 " data-aos="fade-up">
           <img src="imges/about/skill-img.png" class="img-fluid"  alt="skill">
         </div>
       </div>
-
-        </style>
-
-
-
         <!-- <div class=" row d-flex justify-content-center border mt-5">
           <div class="col-6">
             <div class="progress">
@@ -392,7 +339,7 @@ body{
   }
 } -->
 
-  </section>
+
 
 
   <!-- <section id="blogs">
@@ -478,8 +425,8 @@ body{
         <p class="text-center">Lets get touch. Send us a message</p>
       </div>
       <div class="container d-flex align-self-center flex-wrap justify-content-between">
-        <div class="container-fluid  col-sm-12 col-md-12 col-lg-5 m-2 col-xl-5 border-top shadow p-3">
-          <div class=" col-12 text justify-content-between m-3 p-3">
+        <div class="container-fluid  col-sm-12 col-md-12 col-lg-5 col-xl-5 border-top shadow p-3 mb-2" data-aos="flip-right">
+          <div class=" col-12 text justify-content-between m-3 p-3"  >
             <div class="d-flex">
               <!-- <i class="fa fa-address-book m-auto"></i> -->
               <div class="col-12">
@@ -504,27 +451,27 @@ body{
                 <p>7414909949</p>
               </div>
             </div>
-            <div class="d-flex col-6  justify-content-between pt-5">
-              <a href="https://www.instagram.com/_saurya_cricketer/" class="bg-danger rounded-circle  ">
+            <div class="d-flex col-6  justify-content-between pt-5 " >
+              <a href="https://www.instagram.com/_saurya_cricketer/" class="bg-primary rounded-circle" data-aos="top-bottom">
                 <i class="fa fa-instagram p-2 "></i>
               </a>
-              <a href="https://www.facebook.com/saurabh.palkar.182" class="bg-info rounded-circle ">
+              <a href="https://www.facebook.com/saurabh.palkar.182" class="bg-primary rounded-circle " data-aos="center-bottom">
                 <i class="fa fa-facebook p-2"></i>
               </a>
-              <a href="" class="bg-success rounded-circle  ">
+              <a href="" class="bg-primary rounded-circle  ">
                 <i class="fa fa-whatsapp p-2"></i>
               </a>
               <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/" class="bg-primary rounded-circle  ">
                 <i class="fa fa-linkedin p-2"></i>
               </a>
-              <a href="https://github.com/Saurabhpalkar" class="bg-dark rounded-circle ">
+              <a href="https://github.com/Saurabhpalkar" class="bg-primary rounded-circle ">
                 <i class="fa fa-github p-2"></i>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="container-fluid col-sm-12 col-md-12 col-lg-6 m-2 col-xl-6 border-top shadow p-3">
+        <div class="container-fluid col-sm-12 col-md-12 col-lg-6 mb-2 col-xl-6 border-top shadow p-3" data-aos="flip-left" >
           <!-- <form method="#" action="forms/contact.php" role="" class="contact-form"> -->
           <form id="form" class="contact-form">
 
@@ -581,8 +528,8 @@ body{
     </script>
 
   <footer>
-    <div class=" d-flex flex-wrap col-12 text-light p-5 mt-5 " style="background-color:black ;">
-      <div class="container-fluid col-sm-12 col-md-6 col-lg-3 col-xl-3">
+    <div class=" d-flex flex-wrap col-12 text-light p-5 mt-5 " style="background-color:black ;" >
+      <div class="container-fluid col-sm-12 col-md-6 col-lg-3 col-xl-3" data-aos="fade-down" data-aos-offset="120">
         <h3>Saurabh Palkar</h3>
         <p>VAKRATUND APT. <br>
           GHASSKOPRI ( KATAI ),<br>
@@ -590,9 +537,9 @@ body{
           VIRAR EAST</p>
 
       </div>
-      <div class="container-fluid col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <div class="container-fluid col-sm-12 col-md-6 col-lg-2 col-xl-2" data-aos="fade-down" data-aos-offset="120">
         <h5>Useful Links</h5>
-        <ul>
+        <ul class="list-unstyled">
           <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
           <li><i class="fa fa-angle-right"></i> <a href="about.html">About us</a></li>
           <li><i class="fa fa-angle-right"></i> <a href="service.html">Services</a></li>
@@ -601,9 +548,9 @@ body{
         </ul>
 
       </div>
-      <div class="container-fluid col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <div class="container-fluid col-sm-12 col-md-6 col-lg-4 col-xl-4"data-aos="fade-down"data-aos-offset="120">
         <h5>Our Services</h5>
-        <ul class="">
+        <ul class="list-unstyled">
           <li><i class="fa fa-angle-right"></i> <a href="#team">Web Design</a></li>
           <li><i class="fa fa-angle-right"></i> <a href="#team">Web Application development</a></li>
           <!-- <li><i class="bx bx-chevron-right"></i> <a href="#team">Graphic Designer & Content Writter</a></li> -->
@@ -611,32 +558,31 @@ body{
           <!-- <li><i class="fa fa-angle-right"></i> <a href="#team">Campaign Manage</a></li> -->
         </ul>
       </div>
-      <div class="container-fluid col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
+      <div class="container-fluid col-sm-12 col-md-6 col-lg-3 col-xl-3"data-aos="fade-down" data-aos-offset="120">
         <h5>My Social Network</h5>
         <p>For more details you can Use my social media accounts. </p>
         <div class="d-flex justify-content-between">
-          <a href="https://www.instagram.com/_saurya_cricketer/" class="bg-danger rounded-circle  ">
+          <a href="https://www.instagram.com/_saurya_cricketer/" class="bg-primary rounded-circle ">
             <i class="fa fa-instagram p-2"></i>
           </a>
-          <a href="https://www.facebook.com/saurabh.palkar.182" class="bg-info rounded-circle ">
+          <a href="https://www.facebook.com/saurabh.palkar.182" class="bg-primary rounded-circle ">
             <i class="fa fa-facebook p-2"></i>
           </a>
-          <a href="" class="bg-success rounded-circle  ">
+          <a href="" class="bg-primary rounded-circle  ">
             <i class="fa fa-whatsapp p-2"></i>
           </a>
           <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/" class="bg-primary rounded-circle  ">
             <i class="fa fa-linkedin p-2"></i>
           </a>
-          <a href="https://github.com/Saurabhpalkar" class="bg-dark rounded-circle ">
+          <a href="https://github.com/Saurabhpalkar" class="bg-primary rounded-circle ">
             <i class="fa fa-github p-2"></i>
           </a>
         </div>
       </div>
       <div class="container col-12 ">
       </div>
-      <div class="col-12 text-center  mt-5 a">
-        &copy; Copyright 2022 <strong><span>saurabhpalkar</span></strong>. All Rights Reserved
-        Designed by <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/">@Saurabh Palkar</a>
+      <div class="col-12 text-center  mt-5 a" data-aos="fade-down" data-aos-offset="10">
+        <small> Copyright &copy; 2022 <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/">@Saurabh Palkar</a>. All Rights Reserved </small>
       </div>
     </div>
     <style>
@@ -651,8 +597,32 @@ body{
         color: aliceblue;
 
       }
+
+      /* aos pffset seting----------------- */ 
+      /* @media screen and (max-width: 800px) {
+       {
+        offset: 500;
+      }
+      }
+     */
+     
     </style>
   </footer>
+
+  <!-- aos data----------------------------s -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120,
+      duration :1000,
+    });
+
+    $(function(){
+      $('.header').load("index.html");
+    })
+  </script>
+  
+  
 </body>
 
 </html>
