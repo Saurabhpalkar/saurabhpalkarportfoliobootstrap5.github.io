@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500&display=swap');
-  </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500&display=swap');
+    </style>
 
   <!-- aos js style------------------ -->
    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -28,20 +28,21 @@
     } */
 
     header .navbar-nav .nav-item a:hover {
-      background-color: black;
+      background-color:  gray;
       font-size: large;
+      border-radius: .5rem;
     }
   </style>
 
-  <header class="card-header fixed-top shadow-lg bg-primary ">
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="container-fluid ">
+  <header class="card-header fixed-top shadow-lg bg-dark p-0">
+    <nav class="navbar navbar-expand-sm navbar-light p-0">
+      <div class="container-fluid ps-4 pe-4">
         <a class="navbar-brand" href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/">
-          <!-- <img src="imges/home/sau.pn" class="img-fluid bg-primary" width="50" height="30" alt=""> -->
-          <span class="text-dark bg-light rounded-circle p-3  shadow logo"><b>SP</b></span><span
-            class="text-light"  data-aos="ease-in">Portfolio</span>
+          <img src="imges/logo/logo1.png" class="img-fluid bg-white text-dark rounded-circle p-0 m-0" width="60vh" height="5" alt="">
+          <!-- <span class="text-dark bg-light rounded-circle p-3  shadow logo"><b>SP</b></span><span
+            class="text-light"  data-aos="ease-in">Portfolio</span> -->
         </a>
-        <button class=" navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="fa fa-align-justify"></span>
         </button>
         <div class="collapse navbar-collapse  flex-column " id="collapsibleNavbar">
@@ -59,7 +60,7 @@
               <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Pages</a>
+              <a class="nav-link text-light" href="blogs.html">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="contact.html">Contact</a>
@@ -71,7 +72,7 @@
           <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/"><i class="fa fa-linkedin rounded-circle p-1 bg-dark"> </i>www.linkedin.com/in/saurabh-palkar</a>
         </div> -->
         <div class="header-email">
-          <a href=""><i class="fa fa-envelope text-dark "></i> palkarsaurabh00@gmail.com</a>
+          <a href=""><i class="fa fa-envelope te "></i> palkarsaurabh00@gmail.com</a>
         </div>
       </div>
     </nav>
@@ -103,15 +104,15 @@
   <section id="hero ">
     <div class=" bg-light col-12 pt-5 mt-5" >
       <div class="container d-flex justify-content-between flex-wrap">
-        <div class="container m-auto col-sm-12 col-md-6 col-lg-6 col-xl-7 col-xxl-7 mb-5 "  data-aos="fade-right" >
+        <div class="container m-auto col-sm-12 col-md-6 col-lg-6 col-xl-7 col-xxl-7  "  data-aos="fade-right" >
           <h6>This is ME</h6>
-          <h1 class="font" data-aos="ease">SAURABH PALKAR</h1>
+          <h1 class="font text-warning" data-aos="ease">SAURABH PALKAR</h1>
           <h1>I'm PHP Developer &<br> Web Designer</h1>
           <p>
             Working on web applications development. <br>
             An enthusiastic highly motivated for an full stack developer.
           </p>
-          <a href="#about" class="btn btn-primary text-uppercase ">discover now</a>
+          <a href="#about" class="btn btn-secondary border text-uppercase ">discover now</a>
         </div>
         <div class="container-fluid col-sm-12 col-md-6 col-lg-6 col-xl-5 col-xxl-5 hero-img " data-aos="fade-left">
           <img class="img-fluid " src="imges/hom1.png" alt="saurbh">
@@ -129,21 +130,21 @@
           </div>
           <div class="container-fluid m-auto col-lg-6 " data-aos="fade-down">
             <h6>About Me</h6>
-            <h1 class="pb-3">PERSONAL DETAILS</h1>
+            <h1 class="pb-3 text-warning">PERSONAL DETAILS</h1>
             <P>
               I am PHP Developer currently working At Prime Softech Solution and the working on web application Project.
               I am self learner Developing websites using HTML, CSS, BOOTSTRAP-5 AND JAVASCRIPT.
 
             </P>
-            <a class="bg-primary text-white p-2" href="about.html">VEIW FULL DETAILS</a>
+            <a class=" btn btn-secondary border text-white p-2" href="about.html">VEIW FULL DETAILS</a>
           </div>
         </div>
       </section>
     
     <div class="container  d-flex flex-wrap mt-5 p-5 justify-content-center col-12" >
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5 " data-aos="fade-right">
-          <h1 class="text-center">My Skills</h1>
-          <p class="text-center">Computer launguge skill</p>
+          <h1 class="text-center">My <span class="text-warning">Skills</span></h1>
+          <p class="text-center card-title ">Computer launguge skill</p>
           <div class="d-flex  justify-content-between">
             <span class="col-6 ">HTML</span>
             <span class="col-6 text-end">90%</span>
@@ -397,41 +398,64 @@ body{
 
           </div>
         </div> -->
-        <div class=" bg-primary text-light justify-content-between d-flex flex-wrap mt-5 p-5 col-12">
-          <div class="container border mb-3 text-center   col-sm-4 col-md-5 col-lg-2">
-            <h1 class="counter ">3+</h1>
-            <p>Project Completed</p>
-          </div>
-          <div class=" container border text-center mb-3 col-sm-4 col-md-5 col-lg-2">
-            <h1 class="counter">1+</h1>
-            <p>Happy Clients</p>
-          </div>
-          <div class="container border text-center mb-3 col-sm-4 col-md-5 col-lg-2">
-            <h1 class="counter">2+</h1>
-            <p>Meetings</p>
-          </div>
-          <div class="container text-center border mb-3 col-sm-12 col-md-5 col-lg-2">
-            <h1 class="counter">100+</h1>
-            <p>Cup of Coffee</p>
-          </div>
-        </div>
-      </div>
+       
   </section>
+<section class="featured_img">
+  <style>
+    .featured_img{
+      /* background: url("imges/featured-img/featured-img3.webp") fixed center center; */
+      background: linear-gradient(rgba(55, 55, 55, 0.5), rgba(64, 66, 70, 0.5)),
+      url("imges/featured-img/featured-img3.webp") fixed center center;
 
+      background-size: cover;
+      /* background-repeat: no-repeat; */
+      padding: 120px 0px;
+      color: white;
+    }
+  </style>
+  <div class="  justify-content-between d-flex flex-wrap mt-5 p-5 col-12 ">
+    <div class="container borde mb-3 text-center   col-sm-4 col-md-5 col-lg-2">
+      <h1 class="counter ">3+</h1>
+      <p>Project <span class="text-warning">Completed</span></p>
+    </div>
+    <div class=" container borde text-center mb-3 col-sm-4 col-md-5 col-lg-2">
+      <h1 class="counter">1+</h1>
+      <p>Happy <span class="text-warning">Clients</span> </p>
+    </div>
+    <div class="container borde text-center mb-3 col-sm-4 col-md-5 col-lg-2">
+      <h1 class="counter">2+</h1>
+      <p>Meet<span class="text-warning">ings</span></p>
+    </div>
+    <div class="container text-center borde mb-3 col-sm-12 col-md-5 col-lg-2">
+      <h1 class="counter">100+</h1>
+      <p>Cup of <span class="text-warning">Coffee</span></p>
+    </div>
+  </div>
+</div>
+</section>
+<style>
+.contact-featured{
+  background-size: cover;
+  color: white;
+  background: linear-gradient(rgba(55, 55, 55, 0.9), rgba(64, 66, 70, 0.9)),
+      url("imges/featured-img/feat-contat2.jpeg") fixed center center;
+}
+</style>
   <section id="contact">
-    <div class="container-fluid pt-5 mt-5">
-      <div class="">
-        <h1 class="text-center">Contact Me</h1>
-        <p class="text-center">Lets get touch. Send us a message</p>
-      </div>
-      <div class="container d-flex align-self-center flex-wrap justify-content-between">
-        <div class="container-fluid  col-sm-12 col-md-12 col-lg-5 col-xl-5 border-top shadow p-3 mb-2" data-aos="flip-right">
+    <div class="container pt-5 mt-5 col-10">
+
+      <div class="row row-cols-sm-1 row-cols-lg-2">
+        <div class="container-fluid   contact-featured mb-4 shadow" data-aos="flip-right">
+          <div class="mt-4">
+            <h1 class="text-center text-success">Contact Me</h1>
+            <p class="text-center text-muted">Lets get touch. Send us a message</p>
+          </div>
           <div class=" col-12 text justify-content-between m-3 p-3"  >
             <div class="d-flex">
               <!-- <i class="fa fa-address-book m-auto"></i> -->
               <div class="col-12">
-                <h5>Location:</h5>
-                <p class="col-md-12 col-sm-12 col-lg-6 col-xl-6">VAKRATUND APT.
+                <h5 class="">Location:</h5>
+                <p class="col-md-12 col-sm-12 col-lg-6 col-xl-6 text-mute text-muted">VAKRATUND APT.
                   GHASSKOPRI ( KATAI ),<br>
                   CHANDANSAR ROAD, <br>
                   VIRAR EAST</p>
@@ -441,39 +465,43 @@ body{
               <!-- <i class="fa fa-envelope m-auto"></i> -->
               <div>
                 <h5>Email:</h5>
-                <div class="d-flex flex-wrap">palkarsaurabh00@gmail.com</div>
+                <div class="d-flex flex-wrap text-muted">palkarsaurabh00@gmail.com</div>
               </div>
             </div>
             <div class="d-flex col-12">
               <!-- <i class="fa fa-phone m-auto"></i> -->
               <div>
                 <h5>Call:</h5>
-                <p>7414909949</p>
+                <p class="text-muted">7414909949</p>
               </div>
             </div>
             <div class="d-flex col-6  justify-content-between pt-5 " >
-              <a href="https://www.instagram.com/_saurya_cricketer/" class="bg-primary rounded-circle" data-aos="top-bottom">
-                <i class="fa fa-instagram p-2 "></i>
+              <a href="https://www.instagram.com/_saurya_cricketer/" class="bg-danger rounded" data-aos="top-iuir5wqbottom">
+                <i class="fa fa-instagram p-3 "></i>
               </a>
-              <a href="https://www.facebook.com/saurabh.palkar.182" class="bg-primary rounded-circle " data-aos="center-bottom">
-                <i class="fa fa-facebook p-2"></i>
+              <a href="https://www.facebook.com/saurabh.palkar.182" class="bg-success rounded" data-aos="center-bottom">
+                <i class="fa fa-facebook p-3"></i>
               </a>
-              <a href="" class="bg-primary rounded-circle  ">
-                <i class="fa fa-whatsapp p-2"></i>
+              <a href="" class="bg-info rounded">
+                <i class="fa fa-whatsapp p-3"></i>
               </a>
-              <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/" class="bg-primary rounded-circle  ">
-                <i class="fa fa-linkedin p-2"></i>
+              <a href="https://github.com/Saurabhpalkar" class="bg-dark rounded">
+                <i class="fa fa-github p-3"></i>
               </a>
-              <a href="https://github.com/Saurabhpalkar" class="bg-primary rounded-circle ">
-                <i class="fa fa-github p-2"></i>
+              <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/" class="bg-primary rounded">
+                <i class="fa fa-linkedin p-3"></i>
               </a>
+             
             </div>
           </div>
         </div>
 
-        <div class="container-fluid col-sm-12 col-md-12 col-lg-6 mb-2 col-xl-6 border-top shadow p-3" data-aos="flip-left" >
+        <div class="container shadow " data-aos="flip-left" >
+            <div class="">
+            <h3 class="text-center">Send Me <span class="text-success"> Message</span></h3>
+          </div>
           <!-- <form method="#" action="forms/contact.php" role="" class="contact-form"> -->
-          <form id="form" class="contact-form">
+          <form id="form" class="contact-form container">
 
             <div class="row">
               <div class="form-group col-md-6 mb-3">
@@ -499,7 +527,7 @@ body{
             </div>
             <div class="text-center ">
               <input type="submit" id="button" value="Send Message"
-                class=" bg-primary p-2 btn-outline-light rounded-pill" required>
+                class=" btn btn-success" required>
               <!-- <button type="submit" id="button">Send Message</button> -->
             </div>
           </form>
@@ -528,55 +556,56 @@ body{
     </script>
 
   <footer>
-    <div class=" d-flex flex-wrap col-12 text-light p-5 mt-5 " style="background-color:black ;" >
+    <div class=" d-flex flex-wrap col-12 text-light p-5 mt-5 bg-dark " >
       <div class="container-fluid col-sm-12 col-md-6 col-lg-3 col-xl-3" data-aos="fade-down" data-aos-offset="120">
-        <h3>Saurabh Palkar</h3>
-        <p>VAKRATUND APT. <br>
+        <h3>Saurabh <span class="text-warning">Palkar</span> </h3>
+        <p class="text-muted">VAKRATUND APT. <br>
           GHASSKOPRI ( KATAI ),<br>
           CHANDANSAR ROAD,<br>
           VIRAR EAST</p>
 
       </div>
       <div class="container-fluid col-sm-12 col-md-6 col-lg-2 col-xl-2" data-aos="fade-down" data-aos-offset="120">
-        <h5>Useful Links</h5>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
-          <li><i class="fa fa-angle-right"></i> <a href="about.html">About us</a></li>
-          <li><i class="fa fa-angle-right"></i> <a href="service.html">Services</a></li>
-          <li><i class="fa fa-angle-right"></i> <a href="resume2.html">Resume</a></li>
-          <li><i class="fa fa-angle-right"></i> <a href="contact.html">Contact</a></li>
+        <h5>Useful <span class="text-warning">Links</span></h5>
+        <ul class="list-unstyed text-muted">
+          <li><i ></i> <a class="text-secondary" href="index.html">Home</a></li>
+          <li><i ></i> <a class="text-secondary" href="about.html">About us</a></li>
+          <li><i ></i> <a class="text-secondary" href="service.html">Services</a></li>
+          <li><i ></i> <a class="text-secondary" href="resume2.html">Resume</a></li>
+          <li><i ></i> <a class="text-secondary" href="contact.html">Contact</a></li>
         </ul>
 
       </div>
       <div class="container-fluid col-sm-12 col-md-6 col-lg-4 col-xl-4"data-aos="fade-down"data-aos-offset="120">
-        <h5>Our Services</h5>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-angle-right"></i> <a href="#team">Web Design</a></li>
-          <li><i class="fa fa-angle-right"></i> <a href="#team">Web Application development</a></li>
+        <h5>Our <span class="text-warning">Services</span> </h5>
+        <ul class=" text-muted">
+          <li><i></i> <a class=" text-muted" href="#team">Web Design</a></li>
+          <li><i></i> <a class=" text-muted" href="#team">Web Application development</a></li>
           <!-- <li><i class="bx bx-chevron-right"></i> <a href="#team">Graphic Designer & Content Writter</a></li> -->
           <!-- <li><i class="fa fa-angle-right"></i> <a href="#team">Web Design</a></li> -->
           <!-- <li><i class="fa fa-angle-right"></i> <a href="#team">Campaign Manage</a></li> -->
         </ul>
       </div>
       <div class="container-fluid col-sm-12 col-md-6 col-lg-3 col-xl-3"data-aos="fade-down" data-aos-offset="120">
-        <h5>My Social Network</h5>
-        <p>For more details you can Use my social media accounts. </p>
+        <h5>My Social <span class="text-warning">Network</span></h5>
+        <p class="text-muted">For more details you can Use my social media accounts. </p>
         <div class="d-flex justify-content-between">
-          <a href="https://www.instagram.com/_saurya_cricketer/" class="bg-primary rounded-circle ">
-            <i class="fa fa-instagram p-2"></i>
+          <a href="https://www.instagram.com/_saurya_cricketer/" class="bg-danger rounded ">
+            <i class="fa fa-instagram p-3"></i>
           </a>
-          <a href="https://www.facebook.com/saurabh.palkar.182" class="bg-primary rounded-circle ">
-            <i class="fa fa-facebook p-2"></i>
+          <a href="https://www.facebook.com/saurabh.palkar.182" class="bg-success rounded ">
+            <i class="fa fa-facebook p-3"></i>
           </a>
-          <a href="" class="bg-primary rounded-circle  ">
-            <i class="fa fa-whatsapp p-2"></i>
+          <a href="" class="bg-info rounded  ">
+            <i class="fa fa-whatsapp p-3"></i>
           </a>
-          <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/" class="bg-primary rounded-circle  ">
-            <i class="fa fa-linkedin p-2"></i>
+          <a href="https://github.com/Saurabhpalkar" class="bg-white text-dark rounded ">
+            <i class="fa fa-github p-3"></i>
           </a>
-          <a href="https://github.com/Saurabhpalkar" class="bg-primary rounded-circle ">
-            <i class="fa fa-github p-2"></i>
+          <a href="https://www.linkedin.com/in/saurabh-palkar-b4aa37222/" class="bg-primary rounded  ">
+            <i class="fa fa-linkedin p-3"></i>
           </a>
+         
         </div>
       </div>
       <div class="container col-12 ">
@@ -586,11 +615,6 @@ body{
       </div>
     </div>
     <style>
-      footer p,
-      ul a,
-      .a {
-        opacity: .9;
-      }
 
       a {
         text-decoration: none;
